@@ -53,7 +53,7 @@ class _list extends State<list> {
                       child: Container(
                         width: taille,
                         child: Image.network(
-                          "${item!.enclosure?.url}",
+                          "${item.enclosure?.url}",
                           fit: BoxFit.cover,
                         ),
                       ),
